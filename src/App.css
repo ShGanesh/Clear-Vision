@@ -1,0 +1,18 @@
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.head-center {
+  text-align: center;
+}
+.obj-center {
+  text-align: center;
+  padding: 1em;
+}
